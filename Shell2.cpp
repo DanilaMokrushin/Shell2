@@ -27,8 +27,9 @@ void ShellSort(vector<T>& Vector) {
 	}
 }
 
+
 int main() {
-	vector<int> vector(5000);
+	vector<int> vector(500000);
 	generate(vector.begin(), vector.end(),rand);
 	clock_t start = clock();
 	ShellSort(vector);
